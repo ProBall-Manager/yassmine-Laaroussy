@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2130</width>
+    <height>1337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="page_equipe">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="bg">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1920</width>
+       <height>1080</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="image.qrc">:/new/prefix1/background_interface.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>1620</x>
+       <y>10</y>
+       <width>281</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="image.qrc">:/new/prefix1/logo_application2.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_equipe">
+     <property name="geometry">
+      <rect>
+       <x>920</x>
+       <y>230</y>
+       <width>841</width>
+       <height>431</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>280</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>Nom </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>370</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>Nationalite </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>460</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>LOGO</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>530</y>
+       <width>231</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>DATE_CREATION</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>610</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>COACH</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>700</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>NB JOUEUR</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>780</y>
+       <width>261</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>NB CHAMPIONNAT</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="nom_equipe">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>290</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="nationalite_equipe">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>380</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Tunisian</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>French</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Italian</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>German</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>English</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Spanish</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="bt_insert">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>470</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Insert</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_image">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>680</y>
+       <width>201</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="logo_equipe">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>470</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="date_creation_equipe">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>540</y>
+       <width>301</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="coach_equipe">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>620</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="nb_championnat_equipe">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>800</y>
+       <width>61</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="nb_joueur_equipe">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>710</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_ajouter">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>910</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ajouter</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_modifier">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>910</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Modifier</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_supprimer">
+     <property name="geometry">
+      <rect>
+       <x>1640</x>
+       <y>680</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Supprimer</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="combo_nom_equipe">
+     <property name="geometry">
+      <rect>
+       <x>1640</x>
+       <y>730</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>100</y>
+       <width>291</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>Gestion Equipe</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="chercher">
+     <property name="geometry">
+      <rect>
+       <x>1400</x>
+       <y>170</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>chercher</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="combo_ordre">
+     <property name="geometry">
+      <rect>
+       <x>1110</x>
+       <y>170</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>ASC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DESC</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="combo_choix">
+     <property name="geometry">
+      <rect>
+       <x>1260</x>
+       <y>170</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>NOM_EQUIPE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NATIONALITE_EQUIPE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DATE_CREATION</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>COACH_EQUIPE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NOMBRE_JOUEURS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>CHAMPIONNAT</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="bt_tri">
+     <property name="geometry">
+      <rect>
+       <x>980</x>
+       <y>170</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TRI</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_pdf">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>670</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PDF</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_stat">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>600</y>
+       <width>511</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_go_to_page_meilleur">
+     <property name="geometry">
+      <rect>
+       <x>1650</x>
+       <y>830</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Meilleur Score</string>
+     </property>
+    </widget>
+    <zorder>bg</zorder>
+    <zorder>label</zorder>
+    <zorder>label_2</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_7</zorder>
+    <zorder>label_8</zorder>
+    <zorder>label_9</zorder>
+    <zorder>nom_equipe</zorder>
+    <zorder>nationalite_equipe</zorder>
+    <zorder>bt_insert</zorder>
+    <zorder>label_image</zorder>
+    <zorder>logo_equipe</zorder>
+    <zorder>date_creation_equipe</zorder>
+    <zorder>coach_equipe</zorder>
+    <zorder>nb_championnat_equipe</zorder>
+    <zorder>nb_joueur_equipe</zorder>
+    <zorder>bt_ajouter</zorder>
+    <zorder>bt_modifier</zorder>
+    <zorder>bt_supprimer</zorder>
+    <zorder>combo_nom_equipe</zorder>
+    <zorder>label_10</zorder>
+    <zorder>chercher</zorder>
+    <zorder>combo_ordre</zorder>
+    <zorder>combo_choix</zorder>
+    <zorder>bt_tri</zorder>
+    <zorder>bt_pdf</zorder>
+    <zorder>label_stat</zorder>
+    <zorder>tableView_equipe</zorder>
+    <zorder>bt_go_to_page_meilleur</zorder>
+   </widget>
+   <widget class="QGroupBox" name="page_equipe_meilleur">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="bg_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1920</width>
+       <height>1080</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="image.qrc">:/new/prefix1/background_interface.jpg</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>1610</x>
+       <y>20</y>
+       <width>301</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="image.qrc">:/new/prefix1/logo_application2.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_equipe_meilleur">
+     <property name="geometry">
+      <rect>
+       <x>880</x>
+       <y>270</y>
+       <width>841</width>
+       <height>431</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="bt_go_to_acceuil">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>170</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Acceuil</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>page_equipe_meilleur</zorder>
+   <zorder>page_equipe</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2130</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
